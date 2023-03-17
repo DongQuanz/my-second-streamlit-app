@@ -8,5 +8,5 @@ st.text('Input Temperature')
 a = float(st.number_input('Text here!!!'))
 if st.button('Predict'):
     st.text('Revenue Prediction')
-    y_pred = pickle_model.predict(x)
+    y_pred = pickle_model.predict(a)
     st.success(text)
